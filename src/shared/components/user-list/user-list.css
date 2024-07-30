@@ -1,0 +1,123 @@
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_icon{
+    cursor: pointer;
+}
+.arrow_icon{
+    cursor: pointer;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header .logo p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.filter_container{
+    display: flex;
+    gap: 11px;
+    height: 37px;
+}
+
+.filters select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 120px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #f8f8f8;
+}
+
+table thead th {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody td img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header .logo img {
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .filters {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+   
